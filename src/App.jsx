@@ -6,6 +6,7 @@ import Loader from "./components/Loader";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
+import PricingPage from "./pages/PricingPage"; // 1. Imported our new page
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -25,6 +26,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/pricing" element={<PricingPage />} /> {/* 2. Added the route */}
       <Route path="/login" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
     </Routes>

@@ -54,6 +54,7 @@ const plans = [
       "5 step Professional Skin Care Routine",
     ],
   },
+
   {
     title: "Party Makeup",
     isTiered: true,
@@ -71,16 +72,20 @@ const plans = [
       "Premium & Basic Products",
     ],
   },
-  {
-    title: "Fashion Makeup",
-    price: "₹5,999",
-    subtitle: "For Shoots & Fashion Events",
+
+    {
+    title: "Reception Makeup",
+    isTiered: true,
+    prices: {
+      "Basic HD Reception": "₹10,500",
+      "Luxury HD Reception": "₹12,500"
+    },
     features: [
-      "Studio Makeup",
+      "Professional Makeup",
       "Hair Styling",
-      "Premium Lashes",
-      "Photoshoot Ready Finish",
-      "Long Lasting Makeup",
+      "False Eyelashes",
+      "Colour lenses (Luxury HD)",
+      "Premium & Basic Products",
     ],
   },
 ];
