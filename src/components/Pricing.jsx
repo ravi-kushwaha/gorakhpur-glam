@@ -2,6 +2,32 @@ import { CheckCircle } from "lucide-react";
 
 const plans = [
     {
+    title: "Basic HD Engagement Makeup",
+    price: "₹12,500",
+    features: [
+      "HD Makeup",
+      "Hairstyling",
+      "Saree/Dupatta Draping",
+      "Basic Skin Prep",
+      "Eyelashes included",
+      "Coloured lenses included",
+    ],
+  },
+
+    {
+    title: "Luxury HD Engagement Makeup",
+    price: "₹15,500",
+    features: [
+      "HD Makeup",
+      "Hairstyling",
+      "Saree/Dupatta Draping",
+      "5 step Professional Skin Care Routine",
+      "Eyelashes included",
+      "Hair Extentions included",
+      "Coloured lenses included",
+    ],
+  },
+    {
     title: "Basic HD Bridal Makeup",
     price: "₹19,500",
     features: [
@@ -16,17 +42,17 @@ const plans = [
 
     {
     title: "Luxury HD Bridal Makeup",
-    price: "₹14,999",
+    price: "₹24,500",
     subtitle: "Most Popular Package",
     featured: true,
     features: [
-      "HD / Airbrush Makeup",
+      "Luxury HD Bridal Makeup",
       "Luxury International Products",
-      "Professional Hair Styling",
+      "Bridal Hair Styling",
       "Saree / Dupatta Draping",
       "Premium Lashes",
-      "Touch-up Kit",
-      "Complete Bridal Finish",
+      "Hair Extentions",
+      "5 step Professional Skin Care Routine",
     ],
   },
 
