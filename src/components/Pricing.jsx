@@ -58,14 +58,14 @@ const plans = [
 
   {
     title: "Party Makeup",
-    price: "₹2,999",
+    price: "Basic HD-₹3,000, Advance HD- ₹4,500 & Luxury HD-₹5,500",
     subtitle: "Perfect for Parties & Events",
     features: [
       "Professional Makeup",
       "Hair Styling",
       "False Eyelashes",
-      "Touch-up Kit",
-      "Premium Products",
+      "Colour lenses (Luxury HD)",
+      "Premium & Basic Products",
     ],
   },
 
