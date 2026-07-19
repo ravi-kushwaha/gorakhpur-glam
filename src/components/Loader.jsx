@@ -15,8 +15,8 @@ export default function Loader() {
           }}
           className="text-6xl md:text-7xl font-bold"
         >
-          <span className="text-pink-500">Luxe</span>
-          <span className="text-gray-900">Beauty</span>
+          <span className="text-pink-500">Gorakhpur</span>
+          <span className="text-gray-900">Glam</span>
         </motion.h1>
 
         <motion.p
